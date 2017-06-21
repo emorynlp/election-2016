@@ -1,0 +1,65 @@
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.large{
+  font-weight: 600;
+}
+
+.parallax-container.medium {
+  min-height: 400px;
+}
+
+#main-banner h1{
+  font-size: 5.8rem;
+  font-weight: 700;
+}
+
+#main-banner h4{
+  font-weight: 400;
+}
+
+#thanks {
+  min-height: 20px;
+  padding-bottom: 0.1rem;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #main-banner .section {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #main-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
